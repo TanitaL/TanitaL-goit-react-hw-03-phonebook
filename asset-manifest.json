@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TanitaL-goit-react-hw-03-phonebook.git/static/css/main.251eeee0.css",
+    "main.js": "/TanitaL-goit-react-hw-03-phonebook.git/static/js/main.19b487d8.js",
+    "index.html": "/TanitaL-goit-react-hw-03-phonebook.git/index.html",
+    "main.251eeee0.css.map": "/TanitaL-goit-react-hw-03-phonebook.git/static/css/main.251eeee0.css.map",
+    "main.19b487d8.js.map": "/TanitaL-goit-react-hw-03-phonebook.git/static/js/main.19b487d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.251eeee0.css",
+    "static/js/main.19b487d8.js"
+  ]
+}
