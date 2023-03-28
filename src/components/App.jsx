@@ -9,6 +9,20 @@ state = {
   filter: '',
 }
   
+componentDidMount() {
+    const contacts = localStorage.getItem('contacts')
+    const parsedContacts = JSON.parse(contacts)
+
+    if (parsedContacts) {
+      this.setState({ contacts: parsedContacts })
+     }
+   }
+  componentDidUpdate(prevProps, PrevState) { 
+    if (this.state.contacts !== PrevState.contacts) { 
+      localStorage.setItem("contacts", JSON.stringify(this.state.contacts))
+    }
+  }
+  
   formSubmitHandler = contact => {
     this.setState((prev) => { 
       return {
